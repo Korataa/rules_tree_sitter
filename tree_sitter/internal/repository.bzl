@@ -75,7 +75,6 @@ TOOL_PLATFORMS = {
 }
 
 def _tree_sitter_repository(ctx):
-    print(sep=" version is: ", ctx.attr.version)
     info = _get_version_info(version = ctx.attr.version)
     if info == None:
         fail("No version information available for {}".format(ctx.attr.version))

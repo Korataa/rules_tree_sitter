@@ -7,6 +7,7 @@ VERSION_SHA256 = {
         "tree-sitter-linux-arm64": "51a50f907f71157003ace392c0bb1c0e8fee2973834e8ee1622da0ac2bb9bffc",
         "tree-sitter-macos-x64": "90e59681b60b15d28b01b3560d2e0e262eacf5efca16990c0fb814c661d992d9",
         "tree-sitter-macos-arm64": "e443779655ed3422d7331089e3fdc3c4be662c271353634a30115ba669bf2c0f",
+        "tree-sitter-win-x64": "083a94631bfe953030ffd72ef6b6c0227585cc238337f4ded114f94fb58d2c31",
         "source-code": "6181ede0b7470bfca37e293e7d5dc1d16469b9485d13f13a605baec4a8b1f791",
     }
 }
