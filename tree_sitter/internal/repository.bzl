@@ -71,9 +71,11 @@ TOOL_PLATFORMS = {
     "tree-sitter-linux-arm64": ["@platforms//os:linux", "@platforms//cpu:aarch64"],
     "tree-sitter-macos-x64": ["@platforms//os:macos", "@platforms//cpu:x86_64"],
     "tree-sitter-macos-arm64": ["@platforms//os:macos", "@platforms//cpu:aarch64"],
+    "tree-sitter-win-x64": ["@platforms//os:windows", "@platforms//cpu:x86_64"],
 }
 
 def _tree_sitter_repository(ctx):
+    print(sep=" version is: ", ctx.attr.version)
     info = _get_version_info(version = ctx.attr.version)
     if info == None:
         fail("No version information available for {}".format(ctx.attr.version))
